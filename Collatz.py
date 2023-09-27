@@ -3,7 +3,7 @@
 elementos = []
 num_elementos = (10)
 
-for n in range(10):
+for n in range(num_elementos):
     elementos.append(int(input("Ingrese un numero natural cualquiera:")))
 
 suma_elementos = sum(elementos)
